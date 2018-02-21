@@ -9,7 +9,9 @@ Although we cannot compute the entire inﬁnite series, we get a good approximat
 Write a function approxPIsquared() that takes as input float error and approximates constant Pi^2 to within error by computing the above sum, term by term, until the difference between the new and the previous sum is less than error. The function should return the new sum. 
 
 >>> approxPIsquared(0.0001)
+
 9.855519952254232
 
 >>> approxPIsquared(0.00000001)
+
 9.869462988376474
